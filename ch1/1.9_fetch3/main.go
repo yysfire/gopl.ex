@@ -2,9 +2,8 @@
 // 《Go语言圣经》: https://github.com/golang-china/gopl-zh
 // Copyright © 2020 yysfire. All Rights Reserved.
 
-// 练习 1.8：
-// 修改fetch这个范例，如果输入的url参数没有 http:// 前缀的话，
-// 为这个url加上该前缀。你可能会用到strings.HasPrefix这个函数。
+// 练习 1.9：
+// 修改fetch打印出HTTP协议的状态码，可以从resp.Status变量得到该状态码
 
 // Fetch prints the content found at each specified URL.
 package main
